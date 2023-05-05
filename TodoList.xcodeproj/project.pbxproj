@@ -29,6 +29,7 @@
 		F910043D2A05C1950089356F /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910043C2A05C1950089356F /* NewItemViewViewModel.swift */; };
 		F910043F2A05C1A00089356F /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910043E2A05C1A00089356F /* LoginViewViewModel.swift */; };
 		F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */; };
+		F91004432A05C8530089356F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004422A05C8530089356F /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		F910043C2A05C1950089356F /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		F910043E2A05C1A00089356F /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		F91004422A05C8530089356F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				F91004292A05BA2B0089356F /* LoginView.swift */,
 				F910042B2A05BA3D0089356F /* RegisterView.swift */,
 				F910042D2A05BA620089356F /* ToDoListItemView.swift */,
+				F91004422A05C8530089356F /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */,
 				F91004262A05B9FC0089356F /* ProfileView.swift in Sources */,
 				F91004282A05BA1A0089356F /* ToDoListView.swift in Sources */,
+				F91004432A05C8530089356F /* HeaderView.swift in Sources */,
 				F91004332A05BB360089356F /* User.swift in Sources */,
 				F91004392A05C16A0089356F /* ProfileViewViewModel.swift in Sources */,
 				F910042C2A05BA3D0089356F /* RegisterView.swift in Sources */,
