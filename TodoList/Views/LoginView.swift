@@ -16,13 +16,13 @@ struct LoginView: View {
         NavigationView() {
             VStack {
                 // Header
-                HeaderView()
+                HeaderView(title: "To Do List", subtitle: "Get things done", angle: 15, background: .purple)
                 
                 // Login Form
                 Form {
-                    TextField("Email Address", text: $email)
+                    TextField("Your Email", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
-                    TextField("Password", text: $password)
+                    TextField("Your Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     Button {
                         // log in
@@ -36,6 +36,7 @@ struct LoginView: View {
                     }
                     .padding()
                 }
+                .offset(y: -50)
                 
                 // Create Account
                 
@@ -43,6 +44,7 @@ struct LoginView: View {
                     Text("New around here?")
                     NavigationLink("Create An Account",
                                    destination: RegisterView())
+                   
                 }
                 .padding(.bottom, 10)
                 Spacer()
