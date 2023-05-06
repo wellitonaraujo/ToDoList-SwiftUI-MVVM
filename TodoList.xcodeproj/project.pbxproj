@@ -30,6 +30,7 @@
 		F910043F2A05C1A00089356F /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910043E2A05C1A00089356F /* LoginViewViewModel.swift */; };
 		F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */; };
 		F91004432A05C8530089356F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004422A05C8530089356F /* HeaderView.swift */; };
+		F91004452A0686350089356F /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004442A0686350089356F /* TLButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F910043E2A05C1A00089356F /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		F91004422A05C8530089356F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F91004442A0686350089356F /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				F910042B2A05BA3D0089356F /* RegisterView.swift */,
 				F910042D2A05BA620089356F /* ToDoListItemView.swift */,
 				F91004422A05C8530089356F /* HeaderView.swift */,
+				F91004442A0686350089356F /* TLButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				F910040D2A052BAF0089356F /* MainView.swift in Sources */,
 				F910042E2A05BA620089356F /* ToDoListItemView.swift in Sources */,
 				F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */,
+				F91004452A0686350089356F /* TLButtonView.swift in Sources */,
 				F91004262A05B9FC0089356F /* ProfileView.swift in Sources */,
 				F91004282A05BA1A0089356F /* ToDoListView.swift in Sources */,
 				F91004432A05C8530089356F /* HeaderView.swift in Sources */,
