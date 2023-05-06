@@ -15,27 +15,32 @@ struct LoginView: View {
         NavigationView() {
             VStack {
                 // Header
-                HeaderView(title: "To Do List", subtitle: "Get things done", angle: 15, background: .purple)
-                
+                HeaderView(title: "To Do List",
+                           subtitle: "Get things done",
+                           angle: 15,
+                           background: .purple)
+        
                 // Login Form
                 Form {
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(Color.red)
+                    }
+                    
                     TextField("Your Email", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
                     SecureField("Your Password", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    TLButtonView(title: "Log In",
-                                 background: .purple
-                    ) {
-                            // Login action
+                    TLButtonView(title: "Log In", background: .purple) {
+                        viewModel.login()
                     }
                     .padding()
                 }
                 .offset(y: -50)
                 
                 // Create Account
-                
                 VStack {
                     Text("New around here?")
                     NavigationLink("Create An Account",
