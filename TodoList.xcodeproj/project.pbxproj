@@ -32,6 +32,7 @@
 		F91004432A05C8530089356F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004422A05C8530089356F /* HeaderView.swift */; };
 		F91004452A0686350089356F /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004442A0686350089356F /* TLButtonView.swift */; };
 		F9B5D3622A07D6E0008AD9E1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B5D3612A07D6E0008AD9E1 /* Extensions.swift */; };
+		F9B5D3642A07F331008AD9E1 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B5D3632A07F331008AD9E1 /* ToDoListItemViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		F91004422A05C8530089356F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F91004442A0686350089356F /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
 		F9B5D3612A07D6E0008AD9E1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F9B5D3632A07F331008AD9E1 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +133,11 @@
 			children = (
 				F91004362A05C15B0089356F /* MainViewViewModel.swift */,
 				F91004382A05C16A0089356F /* ProfileViewViewModel.swift */,
-				F910043A2A05C17D0089356F /* ToDoListViewViewModel.swift */,
 				F910043C2A05C1950089356F /* NewItemViewViewModel.swift */,
 				F910043E2A05C1A00089356F /* LoginViewViewModel.swift */,
 				F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */,
+				F910043A2A05C17D0089356F /* ToDoListViewViewModel.swift */,
+				F9B5D3632A07F331008AD9E1 /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				F91004312A05BAAE0089356F /* NewItemView.swift in Sources */,
 				F910040D2A052BAF0089356F /* MainView.swift in Sources */,
+				F9B5D3642A07F331008AD9E1 /* ToDoListItemViewViewModel.swift in Sources */,
 				F910042E2A05BA620089356F /* ToDoListItemView.swift in Sources */,
 				F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */,
 				F91004452A0686350089356F /* TLButtonView.swift in Sources */,
