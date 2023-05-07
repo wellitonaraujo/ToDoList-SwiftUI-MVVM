@@ -1,1 +1,1 @@
-# ToDoList-SwiftUI-MVVM
+# To Do List with SwiftUI and MVVM pattern
