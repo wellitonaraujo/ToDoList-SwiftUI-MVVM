@@ -13,27 +13,26 @@ struct TLButtonView: View {
     let action: () -> Void
     
     var body: some View {
-        Button {
-        } label: {
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .foregroundColor(background)
-                Text(title)
-                    .font(.system(size: 18))
-                    .foregroundColor(Color.white)
-                    .bold()
-                    .padding(.vertical, 3)
+            Button {
+                action()
+            } label: {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(background)
+                    Text(title)
+                        .font(.system(size: 18))
+                        .foregroundColor(Color.white)
+                        .bold()
+         
+                }
             }
-        }
-        .padding()
     }
 }
 
 struct TLButtonView_Previews: PreviewProvider {
     static var previews: some View {
         TLButtonView(title: "Value",
-                     background: .purple
-        ) {
+                     background: .purple) {
             // Action
         }
     }
