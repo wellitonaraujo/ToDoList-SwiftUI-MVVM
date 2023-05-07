@@ -31,6 +31,7 @@
 		F91004412A05C1AB0089356F /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */; };
 		F91004432A05C8530089356F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004422A05C8530089356F /* HeaderView.swift */; };
 		F91004452A0686350089356F /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91004442A0686350089356F /* TLButtonView.swift */; };
+		F9B5D3622A07D6E0008AD9E1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B5D3612A07D6E0008AD9E1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		F91004402A05C1AB0089356F /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		F91004422A05C8530089356F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F91004442A0686350089356F /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
+		F9B5D3612A07D6E0008AD9E1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				F91004322A05BB360089356F /* User.swift */,
 				F91004342A05BB490089356F /* ToDoListItem.swift */,
+				F9B5D3612A07D6E0008AD9E1 /* Extensions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				F91004452A0686350089356F /* TLButtonView.swift in Sources */,
 				F91004262A05B9FC0089356F /* ProfileView.swift in Sources */,
 				F91004282A05BA1A0089356F /* ToDoListView.swift in Sources */,
+				F9B5D3622A07D6E0008AD9E1 /* Extensions.swift in Sources */,
 				F91004432A05C8530089356F /* HeaderView.swift in Sources */,
 				F91004332A05BB360089356F /* User.swift in Sources */,
 				F91004392A05C16A0089356F /* ProfileViewViewModel.swift in Sources */,
