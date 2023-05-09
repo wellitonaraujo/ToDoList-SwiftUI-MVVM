@@ -8,7 +8,11 @@
 import Foundation
 
 class NewItemViewViewModel: ObservableObject {
-    init() {
-        
-    }
-}
+    @Published var title = ""
+    @Published var dueDate = Date()
+
+    init() {}
+    
+    func save() {}
+    
+ }
