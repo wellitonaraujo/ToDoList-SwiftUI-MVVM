@@ -26,6 +26,7 @@ struct ToDoListView: View {
                         .swipeActions {
                             Button("Excluír") {
                                 viewModel.detele(item: item)
+    
                             }
                         }
                 }
