@@ -13,14 +13,14 @@ struct NewItemView: View {
     
     var body: some View {
         VStack {
-            Text("New Item")
+            Text("Nova tarefa")
                 .font(.system(size: 32))
                 .bold()
-                .padding(.top, 100)
+                .padding(.top, 50)
             
             Form {
                 // Title
-                TextField("Title", text: $viewModel.title)
+                TextField("Tarefa", text: $viewModel.title)
                     .textFieldStyle(DefaultTextFieldStyle())
                 
                 // Date
@@ -29,12 +29,19 @@ struct NewItemView: View {
                 
                 // Action
                 TLButtonView(
-                    title: "Save",
-                    background: .purple) {
-                    viewModel.save()
+                    title: "Salvar",
+                    background: .purple
+                ) {
+                    if viewModel.canSave {
+                        viewModel.save()
                         newItemPresented = false
+                    } else {
+                        viewModel.showAlert = true                    }
                 }
                 .padding()
+            }
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(title: Text("Error"), message: Text("Please fill in all fields and select due date that is today or newer."))
             }
         }
     }

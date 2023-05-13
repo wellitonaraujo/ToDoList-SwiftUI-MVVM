@@ -15,8 +15,8 @@ struct LoginView: View {
         NavigationView() {
             VStack {
                 // Header
-                HeaderView(title: "To Do List",
-                           subtitle: "Get things done",
+                HeaderView(title: "Tarefas",
+                           subtitle: "Fazer ou não fazer",
                            angle: 15,
                            background: .purple)
         
@@ -27,32 +27,32 @@ struct LoginView: View {
                             .foregroundColor(Color.red)
                     }
                     
-                    TextField("Your Email", text: $viewModel.email)
+                    TextField("Seu email", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
-                    SecureField("Your Password", text: $viewModel.password)
+                    SecureField("Sua senha", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
 
-                    TLButtonView(title: "Log In",
+                    TLButtonView(title: "ENTRAR",
                                  background: .purple
                     ) {
                         viewModel.login()
                     }
                     .padding()
-                }
+                } // - FORM
                 .offset(y: -50)
                 
                 // Create Account
                 VStack {
-                    Text("New around here?")
-                    NavigationLink("Create An Account",
+                    Text("Novo por aqui??")
+                    NavigationLink("Criar uma conta",
                                    destination: RegisterView())
                    
                 }
                 .padding(.bottom, 10)
                 Spacer()
-            }
-        }
+            } // HSTACK
+        } // NAVIGATION VIEW
     }
 }
 
